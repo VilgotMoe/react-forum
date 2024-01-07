@@ -146,7 +146,6 @@ const ForumInterface: React.FC<ForumInterfaceProps> = ({
           Sign Out
         </Button>
       </Stack>
-      <SpeedInsights />
     </>
   );
 };
