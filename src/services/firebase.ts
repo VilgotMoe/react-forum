@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCa4I0rQIVW3IW3htO4INH7zDy-NREaEMk",
+  apiKey: process.env.API_KEY,
   authDomain: "react-chat-forum.firebaseapp.com",
   projectId: "react-chat-forum",
   storageBucket: "react-chat-forum.appspot.com",
   messagingSenderId: "1048379705237",
-  appId: "1:1048379705237:web:3ace1f7ee966bddb7a989c",
+  appId: process.env.API_ID,
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
