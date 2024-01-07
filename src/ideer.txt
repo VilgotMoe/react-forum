@@ -1,4 +1,0 @@
-Admin Funktioner för mitt Google Konto
-Ta bort messages relativt till Kontot
-Bättre Layout
-Bilder?
