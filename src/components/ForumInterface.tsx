@@ -10,7 +10,6 @@ import {
 } from "firebase/firestore";
 import { adminEmails } from "./GoogleSignInButton";
 import NavBar from "./NavBar";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 interface Message {
   username: string;
