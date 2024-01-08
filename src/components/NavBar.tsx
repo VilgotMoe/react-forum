@@ -15,7 +15,7 @@ const NavBar = ({ accountName, isAdmin }: Props) => {
     <>
       <HStack justifyContent={"space-between"} padding="10px">
         <Image src={react} w="5vw" />
-        <HStack spacing={2} marginLeft={"15vw"}>
+        <HStack spacing={2}>
           <PersonInfo accountName={accountName} isAdmin={isAdmin} />
         </HStack>
         <HStack spacing={2}>
