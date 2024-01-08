@@ -10,12 +10,12 @@ interface Props {
   isAdmin: boolean;
 }
 
-const NavBar = ({ accountName, isAdmin }: Props) => {
+const NavBar = ({ isAdmin }: Props) => {
   return (
     <>
       <HStack justifyContent={"space-between"} padding="10px">
         <Image src={react} w="5vw" />
-        <PersonInfo accountName={accountName} isAdmin={isAdmin} />
+        <PersonInfo />
         <HStack spacing={2}>
           {isAdmin && <AdminActions />}
           <Tooltip label="Not Implemented" fontSize="md">

@@ -1,11 +1,6 @@
 import { Box, Text, Flex } from "@chakra-ui/react";
 
-interface Props {
-  accountName: any;
-  isAdmin: boolean;
-}
-
-const PersonInfo = ({ accountName }: Props) => {
+const PersonInfo = () => {
   return (
     <Box>
       <Flex alignItems={"center"}>
@@ -16,7 +11,7 @@ const PersonInfo = ({ accountName }: Props) => {
           fontWeight="bold"
           align="center"
         >
-          {accountName}
+          ""
         </Text>
       </Flex>
     </Box>
