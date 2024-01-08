@@ -10,8 +10,7 @@ const PersonInfo = ({ accountName }: Props) => {
     <Box>
       <Flex alignItems={"center"}>
         <Avatar
-          size={{ sm: "sm", md: "md", lg: "md", xl: "md" }}
-          fontSize={"2vw"}
+          size={{ md: "md" }}
           name={accountName}
           display={{ base: "none", md: "block" }}
         />
