@@ -1,4 +1,4 @@
-import { Box, Text, Avatar, Flex } from "@chakra-ui/react";
+import { Box, Text, Flex } from "@chakra-ui/react";
 
 interface Props {
   accountName: any;
@@ -9,12 +9,6 @@ const PersonInfo = ({ accountName }: Props) => {
   return (
     <Box>
       <Flex alignItems={"center"}>
-        <Avatar
-          size={{ md: "md" }}
-          name={accountName}
-          display={{ base: "none", md: "block" }}
-          mr="1.3vw"
-        />
         <Text
           as="span"
           fontSize={"1.4vw"}
