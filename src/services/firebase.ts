@@ -7,7 +7,7 @@ const firebaseConfig = {
   authDomain: "react-chat-forum.firebaseapp.com",
   projectId: "react-chat-forum",
   storageBucket: "react-chat-forum.appspot.com",
-  messagingSenderId: "1048379705237",
+  messagingSenderId: process.env.MESSAGE_SENDER_ID,
   appId: process.env.API_ID,
 };
 
