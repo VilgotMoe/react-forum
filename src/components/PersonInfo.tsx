@@ -10,9 +10,7 @@ const PersonInfo = () => {
           color="blue.500"
           fontWeight="bold"
           align="center"
-        >
-          ""
-        </Text>
+        ></Text>
       </Flex>
     </Box>
   );
