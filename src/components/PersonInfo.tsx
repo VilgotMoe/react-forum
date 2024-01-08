@@ -13,13 +13,14 @@ const PersonInfo = ({ accountName }: Props) => {
           size={{ md: "md" }}
           name={accountName}
           display={{ base: "none", md: "block" }}
+          mr="1.3vw"
         />
         <Text
           as="span"
           fontSize={"1.4vw"}
-          marginLeft={"1.3vw"}
           color="blue.500"
           fontWeight="bold"
+          align="center"
         >
           {accountName}
         </Text>
