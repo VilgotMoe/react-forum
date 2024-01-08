@@ -15,9 +15,7 @@ const NavBar = ({ accountName, isAdmin }: Props) => {
     <>
       <HStack justifyContent={"space-between"} padding="10px">
         <Image src={react} w="5vw" />
-        <HStack spacing={2}>
-          <PersonInfo accountName={accountName} isAdmin={isAdmin} />
-        </HStack>
+        <PersonInfo accountName={accountName} isAdmin={isAdmin} />
         <HStack spacing={2}>
           {isAdmin && <AdminActions />}
           <Tooltip label="Not Implemented" fontSize="md">
